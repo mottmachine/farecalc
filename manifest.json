@@ -1,0 +1,18 @@
+{
+  "name": "Fare Calculator",
+  "short_name": "Fare Calc",
+  "description": "LTFRB Region X - Fare Calculator",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0038a8",
+  "theme_color": "#0038a8",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icons/ltfrb.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+    
+  ]
+}
