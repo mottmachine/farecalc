@@ -1,7 +1,7 @@
 {
   "name": "Fare Calculator",
-  "short_name": "Fare Calc",
-  "description": "LTFRB Region X - Fare Calculator",
+  "short_name": "Fare Calc", 
+  "description": "LTFRB Region X - Jeepney Fare Calculator & Route Guide",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0038a8",
@@ -9,10 +9,25 @@
   "orientation": "portrait",
   "icons": [
     {
-      "src": "/ltfrb.png",
+      "src": "ltfrb.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "ltfrb.png", 
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
     }
-    
+  ],
+  "categories": ["navigation", "travel", "utilities"],
+  "screenshots": [
+    {
+      "src": "https://via.placeholder.com/540x720/0038a8/ffffff?text=Fare+Calculator",
+      "sizes": "540x720",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
   ]
 }
